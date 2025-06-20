@@ -24,7 +24,7 @@ This project provides a comprehensive exploratory data analysis (EDA) pipeline f
 ### Installation
 1. Clone this repository:
    ```sh
-   git clone <your-repo-url>
+   git clone https://github.com/DevanshSharma867/EDA-of-Alert-Data.git
    ```
 2. Install dependencies:
    ```sh
@@ -47,5 +47,3 @@ This project provides a comprehensive exploratory data analysis (EDA) pipeline f
 ## Recommended .gitignore
 A `.gitignore` file is included to avoid uploading unnecessary files to GitHub.
 
-## License
-Specify your license here (e.g., MIT, Apache 2.0, etc.)
