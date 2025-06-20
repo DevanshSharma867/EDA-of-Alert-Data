@@ -1,0 +1,44 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Data and output files
+*.csv
+*.tsv
+*.xls
+*.xlsx
+*.json
+*.html
+*.pdf
+*.db
+*.sqlite
+*.h5
+*.parquet
+*.feather
+*.pkl
+*.sav
+*.dta
+*.rds
+*.rdata
+*.sas7bdat
+*.log
+
+# VS Code settings
+.vscode/
+
+# Environment files
+.env
+.venv/
+venv/
+ENV/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Do not include git folder
+.git/
