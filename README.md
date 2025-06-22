@@ -1,28 +1,10 @@
 # EDA of Alert Data
 
-This project provides a comprehensive exploratory data analysis (EDA) pipeline for alert data, including data loading, cleaning, feature engineering, pattern and performance analysis, and automated profiling. The notebook is designed for robust, memory-efficient analysis and outputs both HTML and JSON reports.
+## Project Purpose
+This project provides a robust, modular pipeline for performing exploratory data analysis (EDA) on alert or incident datasets. It is designed for flexibility, reproducibility, and easy adaptation to new datasets or business requirements.
 
-## Features
-- Data loading and cleaning functions
-- Feature engineering for time-based and categorical features
-- Pattern and performance analysis with visualizations
-- Automated profiling using `ydata_profiling`
-- Outputs summary reports in HTML and JSON formats
-
-## Getting Started
-
-### Prerequisites
-- Python 3.7+
-- Recommended: Jupyter Notebook or VS Code with Jupyter extension
-- Required Python packages:
-  - pandas
-  - numpy
-  - matplotlib
-  - seaborn
-  - ydata_profiling (for auto profiling)
-
-### Installation
-1. Clone this repository:
+## Setup Instructions
+1. Clone the repository:
    ```sh
    git clone https://github.com/DevanshSharma867/EDA-of-Alert-Data.git
    ```
@@ -31,19 +13,23 @@ This project provides a comprehensive exploratory data analysis (EDA) pipeline f
    pip install -r requirements.txt
    ```
 
-### Usage
-1. Open `eda-of-alert-data.ipynb` in Jupyter or VS Code.
-2. Update the `DATA_PATH` variable if your data file is in a different location.
-3. Run the notebook cells sequentially.
-4. The pipeline will generate an HTML report and a JSON summary in the output directory.
+## How to Run the Notebook
+1. Place your alert data CSV file in the `data/` directory, or use the provided `sample_alert_data.csv` for testing.
+2. Open `eda-of-alert-data.ipynb` in Jupyter or VS Code.
+3. Adjust the `DATA_PATH` and `OUTPUT_DIR` variables at the top of the notebook if needed.
+4. Run all cells sequentially.
+5. Outputs (HTML report, JSON summary) will be saved in the `output/` directory.
 
-## File Structure
-- `eda-of-alert-data.ipynb` — Main notebook with the EDA pipeline
-- `requirements.txt` — List of required Python packages
-- `README.md` — Project overview and instructions
-- (Optional) `auto_eda_report.html` — Generated EDA report
-- (Optional) `eda_output.json` — Generated summary output
+## Example Usage/Output
+- Input: CSV file with alert data (see `data/sample_alert_data.csv` for format)
+- Output: `output/auto_eda_report.html`, `output/eda_output.json`
 
-## Recommended .gitignore
-A `.gitignore` file is included to avoid uploading unnecessary files to GitHub.
+## Credits/References
+- [pandas documentation](https://pandas.pydata.org/)
+- [ydata-profiling](https://github.com/ydataai/ydata-profiling)
+- [matplotlib](https://matplotlib.org/)
+- [seaborn](https://seaborn.pydata.org/)
+
+## License
+Specify your license here (e.g., MIT, Apache 2.0, etc.)
 
