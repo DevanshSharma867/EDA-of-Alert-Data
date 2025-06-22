@@ -42,3 +42,6 @@ Thumbs.db
 
 # Do not include git folder
 .git/
+
+output/
+data/
