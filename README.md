@@ -30,6 +30,3 @@ This project provides a robust, modular pipeline for performing exploratory data
 - [matplotlib](https://matplotlib.org/)
 - [seaborn](https://seaborn.pydata.org/)
 
-## License
-Specify your license here (e.g., MIT, Apache 2.0, etc.)
-
